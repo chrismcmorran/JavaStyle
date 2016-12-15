@@ -18,6 +18,8 @@ CMakeFiles/JavaStyle.dir/main.cpp.o
  /Users/chris/ClionProjects/JavaStyle/lang/String.h
  /Users/chris/ClionProjects/JavaStyle/lang/System.h
  /Users/chris/ClionProjects/JavaStyle/main.cpp
+ /Users/chris/ClionProjects/JavaStyle/util/ArrayList.h
+ /Users/chris/ClionProjects/JavaStyle/util/HashMap.h
  /Users/chris/ClionProjects/JavaStyle/util/Scanner.h
 CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o
  /Users/chris/ClionProjects/JavaStyle/io/File.h

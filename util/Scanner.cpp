@@ -83,3 +83,19 @@ void Scanner::fill_stream()
 		}
 	}
 }
+
+bool Scanner::hasNext()
+{
+	return this->strings.size() > 0;
+}
+
+bool Scanner::isEmpty()
+{
+	return this->strings.size() < 1;
+}
+
+bool Scanner::close()
+{
+	this->_ifstream->close();
+	return !this->_ifstream->is_open();
+}

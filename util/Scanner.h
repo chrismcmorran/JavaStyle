@@ -30,6 +30,12 @@ public:
 	bool isOpen();
 	bool isClosed();
 	bool open();
+
+	bool hasNext();
+
+	bool isEmpty();
+
+	bool close();
 	String readline();
 
 };

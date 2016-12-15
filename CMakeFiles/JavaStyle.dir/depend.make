@@ -17,6 +17,8 @@ CMakeFiles/JavaStyle.dir/main.cpp.o: lang/PrintStream.h
 CMakeFiles/JavaStyle.dir/main.cpp.o: lang/String.h
 CMakeFiles/JavaStyle.dir/main.cpp.o: lang/System.h
 CMakeFiles/JavaStyle.dir/main.cpp.o: main.cpp
+CMakeFiles/JavaStyle.dir/main.cpp.o: util/ArrayList.h
+CMakeFiles/JavaStyle.dir/main.cpp.o: util/HashMap.h
 CMakeFiles/JavaStyle.dir/main.cpp.o: util/Scanner.h
 
 CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o: io/File.h

@@ -9,24 +9,17 @@
 #include <cstdlib>
 
 template <typename T>
-class ArrayList<T>
+class ArrayList
 {
 private:
 	std::vector<T> _vector;
 	std::vector<T*> deallocate_buffer;
 public:
-	ArrayList();
-
-	template <typename T>
 	ArrayList<T>& addLast(T* object);
-	template <typename T>
 	ArrayList<T>& addFirst(T* object);
-	template <typename T>
 	T removeLast();
 	void pop();
-	template <typename T>
 	T removeFirst();
-	template <typename T>
 	T* toArray();
 
 	virtual ~ArrayList();
@@ -43,7 +36,7 @@ ArrayList<T> &ArrayList<T>::addLast(T *object)
 template<typename T>
 ArrayList<T> &ArrayList<T>::addFirst(T *object)
 {
-	this->_vector.insert(0, object);
+	this->_vector.insert(this->_vector.begin(), *object);
 	return *this;
 }
 
@@ -64,7 +57,7 @@ template <typename T>
 T ArrayList<T>::removeFirst()
 {
 	T copy = this->_vector.at(0);
-	this->_vector.erase(this->_vector.at(0));
+	this->_vector.erase(this->_vector.begin());
 	return copy;
 }
 
@@ -78,11 +71,6 @@ T * ArrayList<T>::toArray()
 		this->deallocate_buffer.push_back(space[i]);
 	}
 	return space;
-}
-
-template <typename T>
-ArrayList<T>::ArrayList()
-{
 }
 
 template <typename T>

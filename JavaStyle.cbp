@@ -107,6 +107,9 @@
 		<Unit filename="/Users/chris/ClionProjects/JavaStyle/util/ArrayList.h">
 			<Option target="JavaStyle"/>
 		</Unit>
+		<Unit filename="/Users/chris/ClionProjects/JavaStyle/util/HashMap.h">
+			<Option target="JavaStyle"/>
+		</Unit>
 		<Unit filename="/Users/chris/ClionProjects/JavaStyle/util/Scanner.cpp">
 			<Option target="JavaStyle"/>
 		</Unit>
