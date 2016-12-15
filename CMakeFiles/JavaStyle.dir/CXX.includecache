@@ -57,20 +57,14 @@ util/Scanner.h
 /Users/chris/ClionProjects/JavaStyle/util/Scanner.h
 lang/System.h
 /Users/chris/ClionProjects/JavaStyle/lang/System.h
-util/HashMap.h
-/Users/chris/ClionProjects/JavaStyle/util/HashMap.h
+util/ArrayList.h
+/Users/chris/ClionProjects/JavaStyle/util/ArrayList.h
 
 /Users/chris/ClionProjects/JavaStyle/util/ArrayList.h
 vector
 -
 cstdlib
 -
-
-/Users/chris/ClionProjects/JavaStyle/util/HashMap.h
-map
--
-ArrayList.h
-/Users/chris/ClionProjects/JavaStyle/util/ArrayList.h
 
 /Users/chris/ClionProjects/JavaStyle/util/Scanner.cpp
 Scanner.h

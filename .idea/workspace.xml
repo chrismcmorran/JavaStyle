@@ -23,8 +23,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaStyle.cbp" afterPath="$PROJECT_DIR$/JavaStyle.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/ArrayList.h" afterPath="$PROJECT_DIR$/util/ArrayList.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/Scanner.cpp" afterPath="$PROJECT_DIR$/util/Scanner.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/Scanner.h" afterPath="$PROJECT_DIR$/util/Scanner.h" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +43,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -58,9 +56,9 @@
         <entry file="file://$PROJECT_DIR$/util/Scanner.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding>
-                <marker date="1481783942000" expanded="true" signature="243:638" ph="{...}" />
+                <marker date="1481786927000" expanded="true" signature="243:641" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -98,36 +96,22 @@
       <file leaf-file-name="ArrayList.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/ArrayList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+            <state relative-caret-position="243">
+              <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
               <folding>
                 <element signature="e#118#135#0" expanded="true" />
-                <element signature="e#165#177#0" expanded="true" />
-                <element signature="e#445#457#0" expanded="true" />
-                <element signature="e#567#579#0" expanded="true" />
-                <element signature="e#711#723#0" expanded="true" />
-                <element signature="e#860#872#0" expanded="true" />
-                <element signature="e#939#951#0" expanded="true" />
-                <element signature="e#1086#1098#0" expanded="true" />
-                <element signature="e#1353#1365#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMap.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/HashMap.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="e#114#128#0" expanded="true" />
-                <element signature="e#162#186#0" expanded="true" />
-                <element signature="e#413#437#0" expanded="true" />
-                <element signature="e#553#577#0" expanded="true" />
-                <element signature="e#653#677#0" expanded="true" />
-                <element signature="e#750#774#0" expanded="true" />
-                <element signature="e#842#866#0" expanded="true" />
+                <element signature="e#164#176#0" expanded="true" />
+                <element signature="e#524#536#0" expanded="true" />
+                <element signature="e#646#658#0" expanded="true" />
+                <element signature="e#790#802#0" expanded="true" />
+                <element signature="e#940#952#0" expanded="true" />
+                <element signature="e#1018#1030#0" expanded="true" />
+                <element signature="e#1164#1176#0" expanded="true" />
+                <element signature="e#1429#1441#0" expanded="true" />
+                <element signature="e#1585#1597#0" expanded="true" />
+                <element signature="e#1678#1690#0" expanded="true" />
+                <element signature="e#1769#1781#0" expanded="true" />
+                <element signature="e#1851#1863#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,6 +169,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -200,8 +185,8 @@
         <option value="$PROJECT_DIR$/util/Scanner.h" />
         <option value="$PROJECT_DIR$/util/Scanner.cpp" />
         <option value="$PROJECT_DIR$/util/HashMap.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/util/ArrayList.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -295,6 +280,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RunManager" selected="Application.Build All">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JavaStyle" TARGET_NAME="JavaStyle" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
@@ -508,12 +494,20 @@
       <option name="presentableId" value="Default" />
       <updated>1481775608156</updated>
       <workItem from="1481775619494" duration="4706000" />
-      <workItem from="1481780386071" duration="6192000" />
+      <workItem from="1481780386071" duration="6895000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed some ArrayList functions.">
+      <created>1481786944468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481786944468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10898000" />
+    <option name="totallyTimeSpent" value="11601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1260" height="670" extended-state="0" />
@@ -526,7 +520,7 @@
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -545,6 +539,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed some ArrayList functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some ArrayList functions." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,9 +714,9 @@
     <entry file="file://$PROJECT_DIR$/util/Scanner.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
-            <marker date="1481783942000" expanded="true" signature="243:638" ph="{...}" />
+            <marker date="1481786927000" expanded="true" signature="243:641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -726,22 +726,6 @@
         <state relative-caret-position="125">
           <caret line="1107" column="0" lean-forward="false" selection-start-line="1107" selection-start-column="0" selection-end-line="1107" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/HashMap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#114#128#0" expanded="true" />
-            <element signature="e#162#186#0" expanded="true" />
-            <element signature="e#413#437#0" expanded="true" />
-            <element signature="e#553#577#0" expanded="true" />
-            <element signature="e#653#677#0" expanded="true" />
-            <element signature="e#750#774#0" expanded="true" />
-            <element signature="e#842#866#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,28 +739,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/util/HashMap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/ArrayList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        <state relative-caret-position="243">
+          <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
           <folding>
             <element signature="e#118#135#0" expanded="true" />
-            <element signature="e#165#177#0" expanded="true" />
-            <element signature="e#445#457#0" expanded="true" />
-            <element signature="e#567#579#0" expanded="true" />
-            <element signature="e#711#723#0" expanded="true" />
-            <element signature="e#860#872#0" expanded="true" />
-            <element signature="e#939#951#0" expanded="true" />
-            <element signature="e#1086#1098#0" expanded="true" />
-            <element signature="e#1353#1365#0" expanded="true" />
+            <element signature="e#164#176#0" expanded="true" />
+            <element signature="e#524#536#0" expanded="true" />
+            <element signature="e#646#658#0" expanded="true" />
+            <element signature="e#790#802#0" expanded="true" />
+            <element signature="e#940#952#0" expanded="true" />
+            <element signature="e#1018#1030#0" expanded="true" />
+            <element signature="e#1164#1176#0" expanded="true" />
+            <element signature="e#1429#1441#0" expanded="true" />
+            <element signature="e#1585#1597#0" expanded="true" />
+            <element signature="e#1678#1690#0" expanded="true" />
+            <element signature="e#1769#1781#0" expanded="true" />
+            <element signature="e#1851#1863#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

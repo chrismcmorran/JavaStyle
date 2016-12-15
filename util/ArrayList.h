@@ -8,19 +8,32 @@
 #include <vector>
 #include <cstdlib>
 
-template <typename T>
+template<typename T>
 class ArrayList
 {
 private:
 	std::vector<T> _vector;
-	std::vector<T*> deallocate_buffer;
+	std::vector<T *> deallocate_buffer;
 public:
-	ArrayList<T>& addLast(T* object);
-	ArrayList<T>& addFirst(T* object);
+	ArrayList<T> &addLast(T *object);
+
+	void add(T object);
+
+	ArrayList<T> &addFirst(T *object);
+
 	T removeLast();
+
 	void pop();
+
 	T removeFirst();
-	T* toArray();
+
+	T *toArray();
+
+	T *get(int index);
+
+	T getFirst();
+
+	T getLast();
 
 	virtual ~ArrayList();
 
@@ -43,17 +56,18 @@ ArrayList<T> &ArrayList<T>::addFirst(T *object)
 template<typename T>
 T ArrayList<T>::removeLast()
 {
-	T copy = this->_vector.at(this->_vector.size() -1);
+	T copy = this->_vector.at(this->_vector.size() - 1);
 	this->_vector.pop_back();
 	return copy;
 }
-template <typename T>
+
+template<typename T>
 void ArrayList<T>::pop()
 {
 	this->_vector.pop_back();
 }
 
-template <typename T>
+template<typename T>
 T ArrayList<T>::removeFirst()
 {
 	T copy = this->_vector.at(0);
@@ -61,10 +75,10 @@ T ArrayList<T>::removeFirst()
 	return copy;
 }
 
-template <typename T>
-T * ArrayList<T>::toArray()
+template<typename T>
+T *ArrayList<T>::toArray()
 {
-	T* space = malloc(sizeof(sizeof(T) * this->_vector.size()));
+	T *space = malloc(sizeof(sizeof(T) * this->_vector.size()));
 	for (int i = 0; i < this->_vector.size(); ++i)
 	{
 		space[i] = this->_vector.at(i);
@@ -73,13 +87,41 @@ T * ArrayList<T>::toArray()
 	return space;
 }
 
-template <typename T>
+template<typename T>
 ArrayList<T>::~ArrayList()
 {
 	for (int i = 0; i < this->deallocate_buffer.size(); ++i)
 	{
 		free(this->deallocate_buffer.at(i));
 	}
+}
+
+template<typename T>
+void ArrayList<T>::add(T object)
+{
+	this->_vector.push_back(object);
+}
+
+template<typename T>
+T *ArrayList<T>::get(int index)
+{
+	return this->_vector.at(index);
+}
+
+template<typename T>
+T ArrayList<T>::getFirst()
+{
+	return this->_vector.at(0);
+}
+
+template<typename T>
+T ArrayList<T>::getLast()
+{
+	if (this->_vector.size() == 0)
+	{
+		return 0;
+	}
+	return this->_vector.at(this->_vector.size() - 1);
 }
 
 
