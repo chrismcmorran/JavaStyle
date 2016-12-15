@@ -13,6 +13,8 @@ class InetAddress
 public:
 	static String getExternalAddress();
 
+	static String getLocalAddress();
+
 private:
 
 };

@@ -19,10 +19,6 @@ public:
 		std::cout << string << std::endl;
 	}
 
-	static void println(std::string string) {
-		std::cout << string << std::endl;
-	}
-
 	static void print(String string)
 	{
 		std::cout << string;

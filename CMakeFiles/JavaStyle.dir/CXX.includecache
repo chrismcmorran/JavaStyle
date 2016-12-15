@@ -113,6 +113,10 @@ net/InetAddress.h
 /Users/chris/ClionProjects/JavaStyle/net/InetAddress.h
 
 /Users/chris/ClionProjects/JavaStyle/net/InetAddress.cpp
+ifaddrs.h
+-
+arpa/inet.h
+-
 InetAddress.h
 /Users/chris/ClionProjects/JavaStyle/net/InetAddress.h
 ../io/Runtime.h
