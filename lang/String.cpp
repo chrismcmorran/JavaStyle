@@ -65,14 +65,41 @@ String &String::append(String string)
 	return *this;
 }
 
-String &String::append(std::string string)
+String::String(const char *string)
 {
-	this->_string += string;
+	this->_string.append(string);
+}
+
+String &String::remove(String string)
+{
+	this->_string.erase(this->_string.find(string._string), (unsigned long) string.length());
 	return *this;
 }
 
-String &String::append(char *string)
+
+String &String::subString(int start, int end)
 {
-	this->_string += std::string(string);
+	this->_string.substr((unsigned long) start, (unsigned long) end);
 	return *this;
 }
+
+String &String::replaceAll(std::string const &original, std::string const &from, std::string const &to)
+{
+	std::string results;
+	std::string::const_iterator end = original.end();
+	std::string::const_iterator current = original.begin();
+	std::string::const_iterator next = std::search(current, end, from.begin(), from.end());
+	while (next != end)
+	{
+		results.append(current, next);
+		results.append(to);
+		current = next + from.size();
+		next = std::search(current, end, from.begin(), from.end());
+	}
+	results.append(current, next);
+	this->_string = results;
+	return *this;
+}
+
+
+

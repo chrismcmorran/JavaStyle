@@ -6,6 +6,38 @@
 
 #IncludeRegexTransform: 
 
+/Users/chris/ClionProjects/JavaStyle/include/pstream.h
+ios
+-
+streambuf
+-
+istream
+-
+ostream
+-
+string
+-
+vector
+-
+algorithm
+-
+cstring
+-
+cerrno
+-
+cstddef
+-
+cstdlib
+-
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+signal.h
+-
+
 /Users/chris/ClionProjects/JavaStyle/io/File.cpp
 File.h
 /Users/chris/ClionProjects/JavaStyle/io/File.h
@@ -13,6 +45,20 @@ File.h
 /Users/chris/ClionProjects/JavaStyle/io/File.h
 fstream
 -
+../lang/String.h
+/Users/chris/ClionProjects/JavaStyle/lang/String.h
+
+/Users/chris/ClionProjects/JavaStyle/io/Runtime.cpp
+Runtime.h
+/Users/chris/ClionProjects/JavaStyle/io/Runtime.h
+../include/pstream.h
+/Users/chris/ClionProjects/JavaStyle/include/pstream.h
+../util/Scanner.h
+/Users/chris/ClionProjects/JavaStyle/util/Scanner.h
+../lang/System.h
+/Users/chris/ClionProjects/JavaStyle/lang/System.h
+
+/Users/chris/ClionProjects/JavaStyle/io/Runtime.h
 ../lang/String.h
 /Users/chris/ClionProjects/JavaStyle/lang/String.h
 
@@ -51,6 +97,8 @@ PrintStream.h
 /Users/chris/ClionProjects/JavaStyle/main.cpp
 iostream
 -
+zconf.h
+-
 lang/String.h
 /Users/chris/ClionProjects/JavaStyle/lang/String.h
 util/Scanner.h
@@ -59,6 +107,20 @@ lang/System.h
 /Users/chris/ClionProjects/JavaStyle/lang/System.h
 util/ArrayList.h
 /Users/chris/ClionProjects/JavaStyle/util/ArrayList.h
+io/Runtime.h
+/Users/chris/ClionProjects/JavaStyle/io/Runtime.h
+net/InetAddress.h
+/Users/chris/ClionProjects/JavaStyle/net/InetAddress.h
+
+/Users/chris/ClionProjects/JavaStyle/net/InetAddress.cpp
+InetAddress.h
+/Users/chris/ClionProjects/JavaStyle/net/InetAddress.h
+../io/Runtime.h
+/Users/chris/ClionProjects/JavaStyle/io/Runtime.h
+
+/Users/chris/ClionProjects/JavaStyle/net/InetAddress.h
+../lang/String.h
+/Users/chris/ClionProjects/JavaStyle/lang/String.h
 
 /Users/chris/ClionProjects/JavaStyle/util/ArrayList.h
 vector
@@ -67,6 +129,8 @@ cstdlib
 -
 
 /Users/chris/ClionProjects/JavaStyle/util/Scanner.cpp
+iostream
+-
 Scanner.h
 /Users/chris/ClionProjects/JavaStyle/util/Scanner.h
 

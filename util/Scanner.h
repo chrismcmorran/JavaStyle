@@ -21,11 +21,14 @@ private:
 	std::string fname;
 	std::list<std::string> strings;
 	void fill_stream();
+
+	bool istream_mode;
 public:
-	Scanner(FILE *file);
 	Scanner(File *file);
 	Scanner(String *string);
 	Scanner(std::string string);
+
+	Scanner(std::istream &input);
 	virtual ~Scanner();
 	bool isOpen();
 	bool isClosed();

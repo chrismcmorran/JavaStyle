@@ -2,11 +2,13 @@
 // Created by Christopher McMorran on 2016-12-14.
 //
 
+#include <iostream>
 #include "Scanner.h"
 
 
 Scanner::Scanner(File *file)
 {
+	this->istream_mode = false;
 //	*this->_ifstream = *file->_stream;
 	this->_stringstream = new std::stringstream();
 	fill_stream();
@@ -18,14 +20,9 @@ Scanner::~Scanner()
 	delete(this->_stringstream);
 }
 
-Scanner::Scanner(FILE *file)
-{
-//	this->_ifstream = new std::ifstream(file);
-	fill_stream();
-}
-
 Scanner::Scanner(String *string)
 {
+	this->istream_mode = false;
 	this->_ifstream = new std::ifstream(string->_string);
 	this->_stringstream = new std::stringstream();
 	this->_ifstream->open("r");
@@ -60,6 +57,13 @@ bool Scanner::open()
 
 String Scanner::readline()
 {
+	if (istream_mode)
+	{
+		std::string line;
+		std::getline(std::cin, line);
+		return String(line);
+	}
+
 	if (this->strings.size() > 0)
 	{
 		String line(this->strings.front());
@@ -98,4 +102,9 @@ bool Scanner::close()
 {
 	this->_ifstream->close();
 	return !this->_ifstream->is_open();
+}
+
+Scanner::Scanner(std::istream &input)
+{
+	this->istream_mode = true;
 }

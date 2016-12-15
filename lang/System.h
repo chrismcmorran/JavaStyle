@@ -9,6 +9,7 @@
 #include <iostream>
 #include "PrintStream.h"
 
+#define in std::cin
 
 class System
 {
@@ -17,8 +18,14 @@ public:
 	static void println(String string) {
 		std::cout << string << std::endl;
 	}
+
 	static void println(std::string string) {
 		std::cout << string << std::endl;
+	}
+
+	static void print(String string)
+	{
+		std::cout << string;
 	}
 
 };

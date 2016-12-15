@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/JavaStyle.dir/io/File.cpp.o"
   "CMakeFiles/JavaStyle.dir/lang/String.cpp.o"
   "CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o"
+  "CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o"
+  "CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o"
   "JavaStyle.pdb"
   "JavaStyle"
 )
