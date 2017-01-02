@@ -5,7 +5,6 @@
 #ifndef JAVASTYLE_RUNTIME_H
 #define JAVASTYLE_RUNTIME_H
 
-
 #include "../lang/String.h"
 
 class Runtime

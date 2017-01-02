@@ -5,10 +5,10 @@ CMakeFiles/JavaStyle.dir/io/File.cpp.o: io/File.cpp
 CMakeFiles/JavaStyle.dir/io/File.cpp.o: io/File.h
 CMakeFiles/JavaStyle.dir/io/File.cpp.o: lang/String.h
 
-CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: include/pstream.h
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: io/File.h
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: io/Runtime.cpp
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: io/Runtime.h
+CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: io/pstream.h
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: lang/PrintStream.h
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: lang/String.h
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: lang/System.h

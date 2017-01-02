@@ -2,10 +2,10 @@
 // Created by Christopher McMorran on 2016-12-15.
 //
 
-#include "Runtime.h"
-#include "../include/pstream.h"
+#include "pstream.h"
 #include "../util/Scanner.h"
 #include "../lang/System.h"
+#include "Runtime.h"
 
 
 String Runtime::exec(String command)

@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.7.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chris/ClionProjects/JavaStyle
+CMAKE_SOURCE_DIR = /Users/chris/Development/JavaStyle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chris/ClionProjects/JavaStyle
+CMAKE_BINARY_DIR = /Users/chris/Development/JavaStyle
 
 # Include any dependencies generated for this target.
 include CMakeFiles/JavaStyle.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/JavaStyle.dir/flags.make
 
 CMakeFiles/JavaStyle.dir/main.cpp.o: CMakeFiles/JavaStyle.dir/flags.make
 CMakeFiles/JavaStyle.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/ClionProjects/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JavaStyle.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/main.cpp.o -c /Users/chris/ClionProjects/JavaStyle/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/Development/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JavaStyle.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/main.cpp.o -c /Users/chris/Development/JavaStyle/main.cpp
 
 CMakeFiles/JavaStyle.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavaStyle.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/ClionProjects/JavaStyle/main.cpp > CMakeFiles/JavaStyle.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/Development/JavaStyle/main.cpp > CMakeFiles/JavaStyle.dir/main.cpp.i
 
 CMakeFiles/JavaStyle.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavaStyle.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/ClionProjects/JavaStyle/main.cpp -o CMakeFiles/JavaStyle.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/Development/JavaStyle/main.cpp -o CMakeFiles/JavaStyle.dir/main.cpp.s
 
 CMakeFiles/JavaStyle.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/JavaStyle.dir/main.cpp.o.provides.build: CMakeFiles/JavaStyle.dir/mai
 
 CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o: CMakeFiles/JavaStyle.dir/flags.make
 CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o: util/Scanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/ClionProjects/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o -c /Users/chris/ClionProjects/JavaStyle/util/Scanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/Development/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o -c /Users/chris/Development/JavaStyle/util/Scanner.cpp
 
 CMakeFiles/JavaStyle.dir/util/Scanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavaStyle.dir/util/Scanner.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/ClionProjects/JavaStyle/util/Scanner.cpp > CMakeFiles/JavaStyle.dir/util/Scanner.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/Development/JavaStyle/util/Scanner.cpp > CMakeFiles/JavaStyle.dir/util/Scanner.cpp.i
 
 CMakeFiles/JavaStyle.dir/util/Scanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavaStyle.dir/util/Scanner.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/ClionProjects/JavaStyle/util/Scanner.cpp -o CMakeFiles/JavaStyle.dir/util/Scanner.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/Development/JavaStyle/util/Scanner.cpp -o CMakeFiles/JavaStyle.dir/util/Scanner.cpp.s
 
 CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/JavaStyle.dir/util/Scanner.cpp.o.provides.build: CMakeFiles/JavaStyle
 
 CMakeFiles/JavaStyle.dir/io/File.cpp.o: CMakeFiles/JavaStyle.dir/flags.make
 CMakeFiles/JavaStyle.dir/io/File.cpp.o: io/File.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/ClionProjects/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JavaStyle.dir/io/File.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/io/File.cpp.o -c /Users/chris/ClionProjects/JavaStyle/io/File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/Development/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JavaStyle.dir/io/File.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/io/File.cpp.o -c /Users/chris/Development/JavaStyle/io/File.cpp
 
 CMakeFiles/JavaStyle.dir/io/File.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavaStyle.dir/io/File.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/ClionProjects/JavaStyle/io/File.cpp > CMakeFiles/JavaStyle.dir/io/File.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/Development/JavaStyle/io/File.cpp > CMakeFiles/JavaStyle.dir/io/File.cpp.i
 
 CMakeFiles/JavaStyle.dir/io/File.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavaStyle.dir/io/File.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/ClionProjects/JavaStyle/io/File.cpp -o CMakeFiles/JavaStyle.dir/io/File.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/Development/JavaStyle/io/File.cpp -o CMakeFiles/JavaStyle.dir/io/File.cpp.s
 
 CMakeFiles/JavaStyle.dir/io/File.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/JavaStyle.dir/io/File.cpp.o.provides.build: CMakeFiles/JavaStyle.dir/
 
 CMakeFiles/JavaStyle.dir/lang/String.cpp.o: CMakeFiles/JavaStyle.dir/flags.make
 CMakeFiles/JavaStyle.dir/lang/String.cpp.o: lang/String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/ClionProjects/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/JavaStyle.dir/lang/String.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/lang/String.cpp.o -c /Users/chris/ClionProjects/JavaStyle/lang/String.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/Development/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/JavaStyle.dir/lang/String.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/lang/String.cpp.o -c /Users/chris/Development/JavaStyle/lang/String.cpp
 
 CMakeFiles/JavaStyle.dir/lang/String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavaStyle.dir/lang/String.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/ClionProjects/JavaStyle/lang/String.cpp > CMakeFiles/JavaStyle.dir/lang/String.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/Development/JavaStyle/lang/String.cpp > CMakeFiles/JavaStyle.dir/lang/String.cpp.i
 
 CMakeFiles/JavaStyle.dir/lang/String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavaStyle.dir/lang/String.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/ClionProjects/JavaStyle/lang/String.cpp -o CMakeFiles/JavaStyle.dir/lang/String.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/Development/JavaStyle/lang/String.cpp -o CMakeFiles/JavaStyle.dir/lang/String.cpp.s
 
 CMakeFiles/JavaStyle.dir/lang/String.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/JavaStyle.dir/lang/String.cpp.o.provides.build: CMakeFiles/JavaStyle.
 
 CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o: CMakeFiles/JavaStyle.dir/flags.make
 CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o: lang/PrintStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/ClionProjects/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o -c /Users/chris/ClionProjects/JavaStyle/lang/PrintStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/Development/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o -c /Users/chris/Development/JavaStyle/lang/PrintStream.cpp
 
 CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/ClionProjects/JavaStyle/lang/PrintStream.cpp > CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/Development/JavaStyle/lang/PrintStream.cpp > CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.i
 
 CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/ClionProjects/JavaStyle/lang/PrintStream.cpp -o CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/Development/JavaStyle/lang/PrintStream.cpp -o CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.s
 
 CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/JavaStyle.dir/lang/PrintStream.cpp.o.provides.build: CMakeFiles/JavaS
 
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: CMakeFiles/JavaStyle.dir/flags.make
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o: io/Runtime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/ClionProjects/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o -c /Users/chris/ClionProjects/JavaStyle/io/Runtime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/Development/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o -c /Users/chris/Development/JavaStyle/io/Runtime.cpp
 
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavaStyle.dir/io/Runtime.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/ClionProjects/JavaStyle/io/Runtime.cpp > CMakeFiles/JavaStyle.dir/io/Runtime.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/Development/JavaStyle/io/Runtime.cpp > CMakeFiles/JavaStyle.dir/io/Runtime.cpp.i
 
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavaStyle.dir/io/Runtime.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/ClionProjects/JavaStyle/io/Runtime.cpp -o CMakeFiles/JavaStyle.dir/io/Runtime.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/Development/JavaStyle/io/Runtime.cpp -o CMakeFiles/JavaStyle.dir/io/Runtime.cpp.s
 
 CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o.provides.build: CMakeFiles/JavaStyle.d
 
 CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o: CMakeFiles/JavaStyle.dir/flags.make
 CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o: net/InetAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/ClionProjects/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o -c /Users/chris/ClionProjects/JavaStyle/net/InetAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chris/Development/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o -c /Users/chris/Development/JavaStyle/net/InetAddress.cpp
 
 CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/ClionProjects/JavaStyle/net/InetAddress.cpp > CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chris/Development/JavaStyle/net/InetAddress.cpp > CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.i
 
 CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/ClionProjects/JavaStyle/net/InetAddress.cpp -o CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chris/Development/JavaStyle/net/InetAddress.cpp -o CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.s
 
 CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o.requires:
 
@@ -247,7 +247,7 @@ JavaStyle: CMakeFiles/JavaStyle.dir/io/Runtime.cpp.o
 JavaStyle: CMakeFiles/JavaStyle.dir/net/InetAddress.cpp.o
 JavaStyle: CMakeFiles/JavaStyle.dir/build.make
 JavaStyle: CMakeFiles/JavaStyle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chris/ClionProjects/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable JavaStyle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chris/Development/JavaStyle/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable JavaStyle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JavaStyle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -270,6 +270,6 @@ CMakeFiles/JavaStyle.dir/clean:
 .PHONY : CMakeFiles/JavaStyle.dir/clean
 
 CMakeFiles/JavaStyle.dir/depend:
-	cd /Users/chris/ClionProjects/JavaStyle && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chris/ClionProjects/JavaStyle /Users/chris/ClionProjects/JavaStyle /Users/chris/ClionProjects/JavaStyle /Users/chris/ClionProjects/JavaStyle /Users/chris/ClionProjects/JavaStyle/CMakeFiles/JavaStyle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/chris/Development/JavaStyle && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chris/Development/JavaStyle /Users/chris/Development/JavaStyle /Users/chris/Development/JavaStyle /Users/chris/Development/JavaStyle /Users/chris/Development/JavaStyle/CMakeFiles/JavaStyle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/JavaStyle.dir/depend
 
